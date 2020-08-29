@@ -1,7 +1,7 @@
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex("to_do").insert([
+  return knex("tasks").insert([
     {
       description: "Eat Breakfast",
       notes: "cook eggs",
