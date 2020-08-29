@@ -1,5 +1,5 @@
 exports.seed = function(knex) {
-  return knex("resources").insert([
+  return knex("resource").insert([
     {
       name: "Plate",
       description:"food transporting device"

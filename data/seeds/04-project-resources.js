@@ -3,25 +3,20 @@ exports.seed = function(knex) {
   // Deletes ALL existing entries
   return knex("project_task").insert([
     {
-      project_task: 1,
-      item_id: 1,
+      projects_id: 1,
+      resource_id: 1,
     },
     {
-      project_task: 2,
+      projects_id: 2,
       resource_id: 2,
      },
      {
-      project_task: 3,
+      projects_id: 3,
       resource_id: 3,
      },
      {
-      project_task: 4,
+      projects_id: 4,
       resource_id: 4,
      },
-     {
-      project_task: 5,
-      resource_id: 5,
-     },
-
   ]);
 };
